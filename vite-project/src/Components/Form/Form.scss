@@ -1,0 +1,36 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+.mini-cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+}
+.firstPusch , .secondPusch , .thirdPusch {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstPusch .img , .secondPusch .img , .thirdPusch .img{
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+.firstPusch .img{
+    background: url(../../assets/Rectangle1.png);
+    background-size: cover;
+}
+.secondPusch .img{
+    background: url(../../assets/Rectangle3.png);
+    background-size: cover;
+}
+.thirdPusch .img{
+    background: url(../../assets/Rectangle2.png);
+    background-size: cover;
+}

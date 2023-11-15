@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$col-grey : rgb(235, 235, 235);
+.button{
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $col-grey;
+    .minus , .plus{
+        cursor: pointer;
+        height: 100%;
+        width: 15px;
+        display: flex;
+        align-items: center;
+    }
+}
